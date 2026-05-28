@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Exercícios - Microsoft Office & Windows</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9edf2 100%);
+            min-height: 100vh;
+        }
+        .card-modulo {
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .card-modulo:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2) !important;
+        }
+        .card-excel { border-top: 8px solid #1d7240; }
+        .card-word { border-top: 8px solid #2b5797; }
+        .card-powerpoint { border-top: 8px solid #d35230; }
+        .card-windows { border-top: 8px solid #0078D4; }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold" style="color: #1e2a3a;">
+                <i class="fas fa-laptop-code me-3"></i>Central de Exercícios
+            </h1>
+            <p class="lead text-secondary">Escolha uma disciplina para começar</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Card Excel -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card card-modulo card-excel shadow h-100" onclick="irParaListagem('Microsoft Excel')">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-file-excel fa-4x mb-3" style="color: #1d7240;"></i>
+                        <h3 class="fw-bold" style="color: #1d7240;">Microsoft Excel</h3>
+                        <p class="text-muted">Planilhas, fórmulas, gráficos e muito mais.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Word -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card card-modulo card-word shadow h-100" onclick="irParaListagem('Microsoft Word')">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-file-word fa-4x mb-3" style="color: #2b5797;"></i>
+                        <h3 class="fw-bold" style="color: #2b5797;">Microsoft Word</h3>
+                        <p class="text-muted">Edição, formatação e produção de documentos.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card PowerPoint -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card card-modulo card-powerpoint shadow h-100" onclick="irParaListagem('Microsoft PowerPoint')">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-file-powerpoint fa-4x mb-3" style="color: #d35230;"></i>
+                        <h3 class="fw-bold" style="color: #d35230;">Microsoft PowerPoint</h3>
+                        <p class="text-muted">Apresentações, animações e design de slides.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Windows -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card card-modulo card-windows shadow h-100" onclick="irParaListagem('Microsoft Windows')">
+                    <div class="card-body text-center p-4">
+                        <i class="fa fa-window-restore fa-4x mb-3" style="color: #0078D4;"></i>
+                        <h3 class="fw-bold" style="color: #0078D4;">Microsoft Windows</h3>
+                        <p class="text-muted">Sistema operacional, arquivos e configurações.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function irParaListagem(disciplina) {
+            sessionStorage.setItem('disciplinaSelecionada', disciplina);
+            window.location.href = 'listagem.html';
+        }
+    </script>
+</body>
+</html>

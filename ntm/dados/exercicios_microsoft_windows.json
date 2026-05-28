@@ -1,0 +1,845 @@
+{
+  "exercicios": [
+    {
+      "id": 1,
+      "titulo": "Exercício 01 - Conhecendo a Área de Trabalho",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "1º Trimestre",
+      "pasta": "windows/primeiro_trimestre/ex01",
+      "nivel": "Iniciante",
+      "objetivo": "Identificar e organizar os elementos da Área de Trabalho do Windows 11, incluindo ícones, barra de tarefas, botão Iniciar e widgets, além de aprender a organizar ícones por nome, tamanho e tipo.",
+      "requisitos": [
+        "Ligar o computador e aguardar o carregamento do Windows 11",
+        "Identificar os elementos da Área de Trabalho (ícones, barra de tarefas, botão Iniciar)",
+        "Localizar o ícone da Lixeira na Área de Trabalho",
+        "Identificar o botão Iniciar na barra de tarefas (ícone do Windows)",
+        "Localizar os widgets (clima, notícias) no canto esquerdo da barra de tarefas",
+        "Clicar com botão direito em uma área vazia da Área de Trabalho",
+        "No menu que aparecer, escolher 'Exibir' e depois 'Ícones grandes'",
+        "Voltar ao mesmo menu e alterar para 'Ícones médios'",
+        "Clicar com botão direito em área vazia, escolher 'Ordenar por' e depois 'Nome'",
+        "Criar um arquivo de texto na Área de Trabalho (botão direito > Novo > Documento de Texto)",
+        "Renomear o arquivo para 'Meu Primeiro Arquivo'",
+        "Mover o arquivo para dentro da Lixeira (arrastar ou botão direito > Excluir)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando",
+        "Usuário com permissão de acesso à Área de Trabalho"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n3. Se houver senha, digite sua senha e pressione Enter.\n\n**PASSO 2: IDENTIFICAR OS ELEMENTOS DA ÁREA DE TRABALHO**\n4. Observe a tela que aparece - esta é a Área de Trabalho.\n5. Identifique os ícones (pequenas imagens) que estão na tela.\n6. Localize o ícone da Lixeira (parece uma lixeira de papel).\n7. Olhe para a barra na parte inferior da tela - esta é a Barra de Tarefas.\n8. No centro da Barra de Tarefas, localize o botão Iniciar (ícone do Windows).\n9. No canto esquerdo da Barra de Tarefas, veja os widgets (clima, notícias).\n\n**PASSO 3: ORGANIZAR OS ÍCONES**\n10. Clique com o botão DIREITO do mouse em uma área vazia da Área de Trabalho.\n11. No menu que aparecer, passe o mouse sobre 'Exibir'.\n12. Clique em 'Ícones grandes' - veja como os ícones ficam maiores.\n13. Repita o processo (botão direito > Exibir) e clique em 'Ícones médios'.\n14. Clique com botão direito em área vazia novamente.\n15. Passe o mouse sobre 'Ordenar por'.\n16. Clique em 'Nome' - os ícones serão organizados em ordem alfabética.\n\n**PASSO 4: CRIAR UM ARQUIVO DE TEXTO**\n17. Clique com botão direito em uma área vazia da Área de Trabalho.\n18. Passe o mouse sobre 'Novo'.\n19. Clique em 'Documento de Texto'.\n20. Um novo arquivo aparecerá com o nome 'Novo documento de texto'.\n\n**PASSO 5: RENOMEAR O ARQUIVO**\n21. Clique com botão DIREITO no arquivo recém-criado.\n22. No menu, clique em 'Renomear'.\n23. Digite o nome: 'Meu Primeiro Arquivo'.\n24. Pressione a tecla Enter para confirmar.\n\n**PASSO 6: EXCLUIR O ARQUIVO (ENVIAR PARA A LIXEIRA)**\n25. Clique com botão DIREITO no arquivo 'Meu Primeiro Arquivo'.\n26. No menu, clique em 'Excluir'.\n27. Uma mensagem perguntará: 'Deseja mover este arquivo para a Lixeira?'\n28. Clique em 'Sim'.\n29. O arquivo desaparecerá da Área de Trabalho e irá para a Lixeira.\n\n**PASSO 7: VERIFICAR A LIXEIRA**\n30. Dê um clique duplo no ícone da Lixeira na Área de Trabalho.\n31. A janela da Lixeira será aberta.\n32. Verifique se o arquivo 'Meu Primeiro Arquivo' está lá dentro.\n33. Feche a janela da Lixeira clicando no X no canto superior direito.\n\n**RESULTADO ESPERADO:**\n- Você conseguiu identificar todos os elementos da Área de Trabalho\n- Os ícones foram organizados e redimensionados\n- Um arquivo de texto foi criado e renomeado com sucesso\n- O arquivo foi excluído e enviado para a Lixeira\n- Você sabe como acessar a Lixeira para ver arquivos excluídos"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Identificação dos elementos", "peso": "15%", "descricao": "Identificou corretamente Área de Trabalho, barra de tarefas, botão Iniciar e Lixeira"},
+        {"criterio": "Organização dos ícones", "peso": "15%", "descricao": "Conseguiu alterar tamanho dos ícones e organizar por nome"},
+        {"criterio": "Criação do arquivo", "peso": "15%", "descricao": "Criou um documento de texto na Área de Trabalho"},
+        {"criterio": "Renomeação do arquivo", "peso": "15%", "descricao": "Renomeou o arquivo para 'Meu Primeiro Arquivo'"},
+        {"criterio": "Exclusão do arquivo", "peso": "20%", "descricao": "Excluiu o arquivo enviando-o para a Lixeira"},
+        {"criterio": "Verificação da Lixeira", "peso": "10%", "descricao": "Conseguiu abrir a Lixeira e visualizar o arquivo excluído"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Se você não encontrar a Lixeira na Área de Trabalho, ela pode estar oculta. Acesse Configurações > Personalização > Temas > Configurações de ícones da Área de Trabalho.",
+        "💡 O botão direito do mouse (clique direito) é muito importante no Windows - ele abre menus de opções.",
+        "💡 Para desfazer uma exclusão acidental, pressione Ctrl + Z imediatamente.",
+        "💡 A Lixeira guarda arquivos excluídos temporariamente. Você pode restaurá-los se precisar.",
+        "💡 Use sempre o 'Ejetar' ou 'Remover com Segurança' para pendrives, mas para a Área de Trabalho isso não é necessário.",
+        "💡 Caminho esperado: Este exercício é prático, não precisa salvar arquivo, apenas executar no computador."
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Exercício 02 - Explorando o Menu Iniciar",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "1º Trimestre",
+      "pasta": "windows/primeiro_trimestre/ex02",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a navegar pelo Menu Iniciar do Windows 11, fixar e desafixar aplicativos, criar pastas de aplicativos, pesquisar programas e personalizar a seção 'Fixados' para acesso rápido.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Clicar no botão Iniciar (ícone do Windows) na barra de tarefas",
+        "Identificar as seções do Menu Iniciar (Fixados, Todos os apps, Conta do usuário)",
+        "Clicar em 'Todos os apps' para ver todos os programas instalados",
+        "Localizar o aplicativo 'Calculadora' na lista de todos os apps",
+        "Clicar com botão direito no aplicativo 'Calculadora'",
+        "Escolher a opção 'Fixar no Iniciar' para fixar o app no Menu Iniciar",
+        "Verificar se a Calculadora apareceu na seção 'Fixados'",
+        "Clicar com botão direito na Calculadora fixada e escolher 'Desafixar do Iniciar'",
+        "Pesquisar um aplicativo usando a barra de pesquisa do Menu Iniciar (ex: 'Bloco de Notas')",
+        "Criar uma pasta no Menu Iniciar arrastando um aplicativo sobre outro",
+        "Nomear a pasta criada como 'Ferramentas'",
+        "Abrir um aplicativo pelo Menu Iniciar (ex: Configurações)",
+        "Fechar o Menu Iniciar clicando fora dele ou pressionando a tecla ESC"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando",
+        "Usuário com permissão de acesso ao Menu Iniciar"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n3. Se houver senha, digite sua senha e pressione Enter.\n\n**PASSO 2: ABRIR O MENU INICIAR**\n4. Olhe para a barra de tarefas na parte inferior da tela.\n5. Localize o botão Iniciar (ícone do Windows, geralmente no centro da barra).\n6. Clique UMA vez com o botão ESQUERDO do mouse no botão Iniciar.\n7. O Menu Iniciar será aberto.\n\n**PASSO 3: IDENTIFICAR AS SEÇÕES DO MENU INICIAR**\n8. Observe que o Menu Iniciar tem três áreas principais:\n    - Parte superior: 'Fixados' (aplicativos que você fixou)\n    - Parte do meio: 'Recomendados' (arquivos usados recentemente)\n    - Parte inferior: ícone da conta do usuário e botão liga/desliga\n9. No canto superior direito, veja o botão 'Todos os apps'.\n\n**PASSO 4: EXPLORAR TODOS OS APPS**\n10. Clique no botão 'Todos os apps'.\n11. Uma lista completa de todos os programas instalados aparecerá.\n12. Role a lista para baixo usando a roda do mouse ou a barra de rolagem.\n13. Localize o aplicativo 'Calculadora' (pode estar em ordem alfabética).\n\n**PASSO 5: FIXAR UM APLICATIVO NO MENU INICIAR**\n14. Clique com o botão DIREITO do mouse no aplicativo 'Calculadora'.\n15. No menu que aparecer, clique em 'Fixar no Iniciar'.\n16. Agora feche a lista 'Todos os apps' clicando na seta 'Voltar'.\n17. Observe que a Calculadora apareceu na seção 'Fixados'.\n\n**PASSO 6: DESAFIXAR O APLICATIVO**\n18. Clique com o botão DIREITO do mouse no ícone da Calculadora na seção 'Fixados'.\n19. No menu que aparecer, clique em 'Desafixar do Iniciar'.\n20. A Calculadora será removida da seção 'Fixados'.\n\n**PASSO 7: PESQUISAR UM APLICATIVO**\n21. No topo do Menu Iniciar, clique na caixa de pesquisa (lupa).\n22. Digite: 'Bloco de Notas'.\n23. O Windows mostrará os resultados da pesquisa.\n24. Clique no aplicativo 'Bloco de Notas' para abri-lo.\n25. Feche o Bloco de Notas clicando no X no canto superior direito.\n\n**PASSO 8: CRIAR UMA PASTA NO MENU INICIAR**\n26. Abra o Menu Iniciar novamente (clique no botão Windows).\n27. Clique em 'Todos os apps'.\n28. Localize dois aplicativos diferentes (ex: 'Calculadora' e 'Configurações').\n29. Clique e segure o botão do mouse sobre um aplicativo.\n30. Arraste o aplicativo sobre o outro aplicativo e solte.\n31. Uma pasta será criada automaticamente.\n32. Clique na pasta para abri-la.\n33. Com a pasta aberta, clique no nome da pasta (que está escrito 'Pasta').\n34. Digite o nome: 'Ferramentas' e pressione Enter.\n\n**PASSO 9: ABRIR UM APLICATIVO PELO MENU INICIAR**\n35. No Menu Iniciar, clique em 'Todos os apps' (se necessário).\n36. Localize o aplicativo 'Configurações' (ícone de engrenagem).\n37. Clique UMA vez no ícone para abri-lo.\n38. A janela Configurações será aberta.\n39. Feche a janela Configurações.\n\n**PASSO 10: FECHAR O MENU INICIAR**\n40. Para fechar o Menu Iniciar, clique em qualquer lugar vazio da Área de Trabalho.\n41. Ou pressione a tecla ESC no teclado.\n\n**RESULTADO ESPERADO:**\n- Você conseguiu abrir e identificar as seções do Menu Iniciar\n- Fixou e desafixou um aplicativo com sucesso\n- Pesquisou e abriu um aplicativo pela barra de pesquisa\n- Criou uma pasta de aplicativos e a nomeou como 'Ferramentas'\n- Abriu o aplicativo Configurações pelo Menu Iniciar\n- Sabe navegar pelo Menu Iniciar com confiança"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Abertura do Menu Iniciar", "peso": "10%", "descricao": "Conseguiu abrir o Menu Iniciar corretamente"},
+        {"criterio": "Identificação das seções", "peso": "10%", "descricao": "Identificou as seções Fixados, Todos os apps e conta do usuário"},
+        {"criterio": "Fixar aplicativo", "peso": "15%", "descricao": "Fixou a Calculadora no Menu Iniciar com sucesso"},
+        {"criterio": "Desafixar aplicativo", "peso": "10%", "descricao": "Removeu a Calculadora da seção Fixados"},
+        {"criterio": "Pesquisa de aplicativo", "peso": "15%", "descricao": "Usou a barra de pesquisa para encontrar o Bloco de Notas"},
+        {"criterio": "Criação de pasta", "peso": "20%", "descricao": "Criou uma pasta arrastando um app sobre outro e a nomeou 'Ferramentas'"},
+        {"criterio": "Abertura de aplicativo", "peso": "10%", "descricao": "Abriu o aplicativo Configurações pelo Menu Iniciar"},
+        {"criterio": "Fechamento do Menu", "peso": "5%", "descricao": "Fechou o Menu Iniciar corretamente"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 O atalho de teclado para abrir o Menu Iniciar é a tecla Windows (⊞ Win) ou Ctrl + ESC.",
+        "💡 Você pode digitar diretamente após abrir o Menu Iniciar para pesquisar - não precisa clicar na caixa de pesquisa.",
+        "💡 Para criar pastas no Menu Iniciar, basta arrastar um ícone sobre outro - o Windows faz o resto.",
+        "💡 A seção 'Recomendados' mostra arquivos que você abriu recentemente para acesso rápido.",
+        "💡 Você pode redimensionar o Menu Iniciar clicando na borda superior e arrastando para cima/baixo.",
+        "💡 O botão 'Todos os apps' mostra TODOS os programas instalados, até mesmo aqueles que não estão fixados."
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Exercício 03 - Gerenciando Janelas",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "1º Trimestre",
+      "pasta": "windows/primeiro_trimestre/ex03",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a abrir, fechar, minimizar, maximizar, redimensionar e mover janelas no Windows 11 usando o mouse e teclado, além de usar o botão 'Visualizar Tarefas' para alternar entre janelas abertas.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir três programas diferentes (ex: Bloco de Notas, Calculadora, Google Chrome)",
+        "Identificar os botões de controle das janelas (Minimizar, Maximizar, Fechar)",
+        "Minimizar cada uma das janelas e restaurar da barra de tarefas",
+        "Maximizar uma janela e depois restaurar ao tamanho normal",
+        "Redimensionar uma janela arrastando as bordas",
+        "Mover uma janela arrastando pela barra de título",
+        "Usar o botão 'Visualizar Tarefas' (ícone ao lado do Menu Iniciar) para ver todas as janelas abertas",
+        "Alternar entre janelas usando o botão 'Visualizar Tarefas'",
+        "Fechar todas as janelas abertas"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR TRÊS PROGRAMAS**\n3. Clique no botão Iniciar (ícone do Windows na barra de tarefas).\n4. Digite 'Bloco de Notas' e clique no aplicativo para abrir.\n5. Repita o processo: abra a Calculadora.\n6. Repita o processo: abra o Google Chrome (navegador).\n7. Agora você tem três janelas abertas na Área de Trabalho.\n\n**PASSO 3: IDENTIFICAR OS BOTÕES DE CONTROLE**\n8. Observe o canto superior direito de cada janela.\n9. Os três botões são:\n    - _ (Traço) = Minimizar\n    - □ (Quadrado) = Maximizar / Restaurar\n    - X (Xis) = Fechar\n\n**PASSO 4: MINIMIZAR E RESTAURAR JANELAS**\n10. Na janela do Bloco de Notas, clique no botão Minimizar ( _ ).\n11. A janela desaparece da tela, mas ainda está aberta.\n12. Olhe para a barra de tarefas - o ícone do Bloco de Notas ainda está lá.\n13. Clique no ícone do Bloco de Notas na barra de tarefas para restaurar a janela.\n14. Repita o processo com a Calculadora e o Google Chrome.\n\n**PASSO 5: MAXIMIZAR E RESTAURAR**\n15. Na janela do Bloco de Notas, clique no botão Maximizar (□).\n16. A janela ocupará a tela inteira.\n17. Observe que o botão Maximizar mudou para dois quadrados sobrepostos (Restaurar).\n18. Clique no botão Restaurar (dois quadrados) para voltar ao tamanho normal.\n\n**PASSO 6: REDIMENSIONAR UMA JANELA**\n19. Posicione o mouse sobre a borda direita da janela do Bloco de Notas.\n20. O cursor mudará para uma seta dupla (↔).\n21. Clique e arraste para a esquerda/direita para redimensionar.\n22. Posicione o mouse sobre o canto inferior direito da janela.\n23. O cursor mudará para uma seta diagonal.\n24. Clique e arraste para redimensionar altura e largura ao mesmo tempo.\n\n**PASSO 7: MOVER UMA JANELA**\n25. Clique e segure na barra de título do Bloco de Notas (parte superior azul).\n26. Arraste a janela para outra posição na tela.\n27. Solte o mouse para fixar a nova posição.\n\n**PASSO 8: USAR O VISUALIZAR TAREFAS**\n28. Na barra de tarefas, localize o ícone 'Visualizar Tarefas' (ao lado do Menu Iniciar).\n29. Ele parece dois retângulos sobrepostos.\n30. Clique no ícone 'Visualizar Tarefas'.\n31. Todas as janelas abertas aparecerão como miniaturas.\n32. Clique na miniatura da Calculadora para alternar para ela.\n33. Clique novamente no ícone 'Visualizar Tarefas'.\n34. Clique na miniatura do Google Chrome para alternar.\n\n**PASSO 9: FECHAR AS JANELAS**\n35. Na janela do Bloco de Notas, clique no botão Fechar (X).\n36. Repita para a Calculadora e Google Chrome.\n\n**RESULTADO ESPERADO:**\n- Você abriu e fechou três programas diferentes\n- Minimizou e restaurou janelas usando os botões e a barra de tarefas\n- Maximizou e restaurou janelas ao tamanho normal\n- Redimensionou janelas pelas bordas e cantos\n- Moveu janelas pela tela\n- Usou o 'Visualizar Tarefas' para alternar entre janelas"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Abrir programas", "peso": "10%", "descricao": "Abriu três programas diferentes com sucesso"},
+        {"criterio": "Minimizar e restaurar", "peso": "15%", "descricao": "Minimizou e restaurou janelas corretamente"},
+        {"criterio": "Maximizar e restaurar", "peso": "15%", "descricao": "Maximizou e restaurou janelas corretamente"},
+        {"criterio": "Redimensionar", "peso": "15%", "descricao": "Redimensionou janelas pelas bordas e cantos"},
+        {"criterio": "Mover janela", "peso": "10%", "descricao": "Moveu janela pela tela usando a barra de título"},
+        {"criterio": "Visualizar Tarefas", "peso": "15%", "descricao": "Usou o Visualizar Tarefas para alternar entre janelas"},
+        {"criterio": "Fechar janelas", "peso": "10%", "descricao": "Fechou todas as janelas corretamente"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 O atalho Alt + Tab também alterna entre janelas abertas de forma rápida.",
+        "💡 Para minimizar todas as janelas de uma vez, use o atalho Windows + D.",
+        "💡 Duplo clique na barra de título maximiza ou restaura a janela.",
+        "💡 Para fechar uma janela rapidamente, use o atalho Alt + F4.",
+        "💡 O botão 'Visualizar Tarefas' também pode ser acessado pelo atalho Windows + Tab.",
+        "💡 Você pode arrastar uma janela para o topo da tela para maximizá-la automaticamente."
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Exercício 04 - Dividindo a Tela com Snap Layouts",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "1º Trimestre",
+      "pasta": "windows/primeiro_trimestre/ex04",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a usar o recurso Snap Layouts do Windows 11 para dividir a tela em 2 ou mais janelas lado a lado, facilitando a comparação de documentos e a multitarefa.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir dois programas diferentes (ex: Bloco de Notas e Calculadora)",
+        "Usar o Snap Layouts arrastando uma janela para o canto esquerdo da tela",
+        "Escolher a segunda janela para preencher o lado direito",
+        "Abrir três programas diferentes (ex: Bloco de Notas, Calculadora, Google Chrome)",
+        "Usar o Snap Layouts pelo atalho Windows + Z",
+        "Escolher o layout de 3 janelas (dividir em três colunas)",
+        "Redimensionar as divisórias entre as janelas",
+        "Restaurar todas as janelas ao tamanho normal",
+        "Fechar todas as janelas abertas"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR DOIS PROGRAMAS**\n3. Clique no botão Iniciar e abra o Bloco de Notas.\n4. Clique no botão Iniciar e abra a Calculadora.\n\n**PASSO 3: SNAP LAYOUTS ARRASTANDO (DUAS JANELAS)**\n5. Clique na barra de título do Bloco de Notas e segure.\n6. Arraste a janela para a ESQUERDA da tela até o cursor encostar na borda.\n7. Uma sombra transparente aparecerá mostrando onde a janela vai encaixar.\n8. Solte o mouse - a janela ocupará a metade esquerda da tela.\n9. O Windows mostrará as outras janelas abertas do lado direito.\n10. Clique na miniatura da Calculadora para encaixá-la no lado direito.\n11. Agora as duas janelas estão lado a lado na tela.\n\n**PASSO 4: REDIMENSIONAR DIVISÓRIAS**\n12. Posicione o mouse sobre a linha divisória entre as duas janelas.\n13. O cursor mudará para uma seta dupla (↔).\n14. Clique e arraste para a esquerda/direita para ajustar o tamanho de cada janela.\n\n**PASSO 5: RESTAURAR AS JANELAS**\n15. Clique no botão Maximizar/Restaurar (□) no Bloco de Notas.\n16. A janela volta ao tamanho normal.\n17. Repita para a Calculadora.\n\n**PASSO 6: ABRIR TRÊS PROGRAMAS**\n18. Abra o Bloco de Notas, a Calculadora e o Google Chrome.\n\n**PASSO 7: SNAP LAYOUTS PELO TECLADO (WINDOWS + Z)**\n19. Selecione a janela do Bloco de Notas (clique nela).\n20. Pressione a tecla Windows + Z no teclado.\n21. Um menu de layouts aparecerá no canto superior direito da janela.\n22. Escolha o layout de 3 colunas (terceira opção).\n23. O Bloco de Notas ocupará a coluna da esquerda.\n24. Clique na Calculadora para ocupar a coluna do meio.\n25. Clique no Google Chrome para ocupar a coluna da direita.\n\n**PASSO 8: EXPLORAR OUTROS LAYOUTS**\n26. Selecione uma das janelas (ex: Calculadora).\n27. Pressione Windows + Z novamente.\n28. Escolha o layout de 2 janelas (primeira opção).\n29. Escolha qual janela ficará do outro lado.\n\n**PASSO 9: REDIMENSIONAR AS DIVISÓRIAS**\n30. Ajuste as divisórias entre as janelas arrastando as linhas.\n\n**PASSO 10: RESTAURAR E FECHAR**\n31. Restaure todas as janelas ao tamanho normal (botão □).\n32. Feche todas as janelas abertas.\n\n**RESULTADO ESPERADO:**\n- Você conseguiu dividir a tela em 2 janelas lado a lado\n- Usou o Snap Layouts arrastando a janela para a borda\n- Usou o atalho Windows + Z para acessar os layouts\n- Dividiu a tela em 3 colunas com janelas diferentes\n- Redimensionou as divisórias entre as janelas\n- Restaurou todas as janelas ao tamanho normal"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Abrir programas", "peso": "10%", "descricao": "Abriu os programas necessários para o exercício"},
+        {"criterio": "Snap Layouts arrastando", "peso": "20%", "descricao": "Conseguiu dividir a tela arrastando a janela para a borda esquerda"},
+        {"criterio": "Layout de 2 janelas", "peso": "15%", "descricao": "Conseguiu preencher os dois lados da tela com janelas diferentes"},
+        {"criterio": "Snap Layouts Windows+Z", "peso": "20%", "descricao": "Usou o atalho Windows+Z para acessar os layouts"},
+        {"criterio": "Layout de 3 janelas", "peso": "15%", "descricao": "Conseguiu dividir a tela em 3 colunas"},
+        {"criterio": "Redimensionar divisórias", "peso": "10%", "descricao": "Redimensionou as divisórias entre as janelas"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 O atalho Windows + Z abre o menu Snap Layouts na janela ativa.",
+        "💡 Você também pode arrastar a janela para o TOPO da tela para abrir o menu de layouts.",
+        "💡 Os layouts disponíveis variam conforme o tamanho da sua tela (monitor).",
+        "💡 Para desfazer um Snap Layout, clique no botão Restaurar (□) da janela.",
+        "💡 Snap Layouts é ótimo para estudar com duas janelas abertas lado a lado.",
+        "💡 Você também pode usar o atalho Windows + seta (← ou →) para encaixar rapidamente."
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Exercício 05 - Alternando entre Janelas com Teclado",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "1º Trimestre",
+      "pasta": "windows/primeiro_trimestre/ex05",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a alternar entre janelas abertas usando atalhos de teclado (Alt + Tab e Windows + Tab), tornando a navegação mais rápida e eficiente.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir quatro programas diferentes (Bloco de Notas, Calculadora, Google Chrome, Configurações)",
+        "Usar o atalho Alt + Tab para alternar entre as janelas",
+        "Manter Alt pressionado e pressionar Tab várias vezes para navegar",
+        "Soltar Alt para abrir a janela selecionada",
+        "Usar o atalho Windows + Tab para abrir o Visualizar Tarefas",
+        "No Visualizar Tarefas, criar uma nova Área de Trabalho virtual",
+        "Mover uma janela para a nova Área de Trabalho",
+        "Alternar entre as Áreas de Trabalho virtuais",
+        "Fechar todas as janelas e Áreas de Trabalho"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Teclado funcionando",
+        "Mouse ou touchpad funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR QUATRO PROGRAMAS**\n3. Abra o Bloco de Notas.\n4. Abra a Calculadora.\n5. Abra o Google Chrome.\n6. Abra o aplicativo Configurações (Windows + I).\n\n**PASSO 3: USAR ALT + TAB**\n7. Pressione e segure a tecla Alt no teclado.\n8. Com Alt pressionado, pressione a tecla Tab UMA vez.\n9. Uma janela cinza aparecerá no centro da tela com ícones dos programas abertos.\n10. Continue com Alt pressionado e pressione Tab várias vezes.\n11. Observe que um quadrado azul se move entre os ícones.\n12. Quando o quadrado estiver sobre o programa desejado, SOLTE a tecla Alt.\n13. O programa selecionado será aberto na tela.\n\n**PASSO 4: TREINAR ALT + TAB**\n14. Pratique alternar entre os quatro programas várias vezes usando Alt + Tab.\n15. Tente também: Alt + Tab + Tab (pressionar Tab duas vezes rapidamente).\n\n**PASSO 5: USAR WINDOWS + TAB (VISUALIZAR TAREFAS)**\n16. Pressione a tecla Windows + Tab no teclado.\n17. O Visualizar Tarefas será aberto, mostrando todas as janelas abertas.\n18. Use as setas do teclado ou o mouse para navegar entre as miniaturas.\n19. Clique em uma miniatura para abrir a janela.\n\n**PASSO 6: CRIAR UMA NOVA ÁREA DE TRABALHO**\n20. Pressione Windows + Tab novamente.\n21. No topo da tela, clique no botão '+' que diz 'Nova Área de Trabalho'.\n22. Uma segunda Área de Trabalho (Desktop 2) será criada.\n\n**PASSO 7: MOVER UMA JANELA ENTRE ÁREAS DE TRABALHO**\n23. Com o Visualizar Tarefas aberto, clique com botão DIREITO na janela da Calculadora.\n24. No menu, escolha 'Mover para' > 'Área de Trabalho 2'.\n25. A Calculadora agora está na segunda Área de Trabalho.\n\n**PASSO 8: ALTERNAR ENTRE ÁREAS DE TRABALHO**\n26. Pressione Windows + Tab.\n27. Clique na miniatura 'Área de Trabalho 2' para alternar.\n28. Veja que apenas a Calculadora está nesta Área de Trabalho.\n29. Pressione Windows + Tab e volte para a 'Área de Trabalho 1'.\n\n**PASSO 9: ALTERNAR RAPIDAMENTE ENTRE ÁREAS DE TRABALHO**\n30. Pressione Ctrl + Windows + Seta para a Direita →\n31. Você alternará para a Área de Trabalho 2.\n32. Pressione Ctrl + Windows + Seta para a Esquerda ←\n33. Você voltará para a Área de Trabalho 1.\n\n**PASSO 10: FECHAR TUDO**\n34. Feche todos os programas abertos.\n35. Pressione Windows + Tab, passe o mouse sobre 'Área de Trabalho 2'.\n36. Clique no X que aparece para fechar a Área de Trabalho extra.\n\n**RESULTADO ESPERADO:**\n- Você alternou entre janelas usando Alt + Tab com confiança\n- Usou Windows + Tab para abrir o Visualizar Tarefas\n- Criou uma nova Área de Trabalho virtual\n- Moveu uma janela entre Áreas de Trabalho\n- Alternou entre Áreas de Trabalho usando atalhos de teclado\n- Fechou a Área de Trabalho extra"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Abrir programas", "peso": "10%", "descricao": "Abriu quatro programas diferentes"},
+        {"criterio": "Alt + Tab", "peso": "20%", "descricao": "Usou Alt + Tab para alternar entre janelas com sucesso"},
+        {"criterio": "Windows + Tab", "peso": "15%", "descricao": "Usou Windows + Tab para abrir o Visualizar Tarefas"},
+        {"criterio": "Criar Área de Trabalho", "peso": "15%", "descricao": "Criou uma nova Área de Trabalho virtual"},
+        {"criterio": "Mover janela", "peso": "15%", "descricao": "Moveu a Calculadora para a nova Área de Trabalho"},
+        {"criterio": "Alternar Áreas", "peso": "15%", "descricao": "Alternou entre Áreas de Trabalho usando atalhos"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Alt + Tab é um dos atalhos mais úteis do Windows - use sempre!",
+        "💡 Para voltar para a janela anterior rapidamente, use Alt + Shift + Tab.",
+        "💡 Windows + Tab mostra todas as janelas e Áreas de Trabalho abertas.",
+        "💡 Você pode arrastar janelas entre Áreas de Trabalho no Visualizar Tarefas.",
+        "💡 Áreas de Trabalho virtuais são ótimas para organizar estudos por matéria.",
+        "💡 Atalho rápido: Ctrl + Windows + Seta (← →) para trocar de Área de Trabalho."
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Exercício 06 - Criando e Organizando Pastas",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "2º Trimestre",
+      "pasta": "windows/segundo_trimestre/ex06",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a criar, renomear, mover e organizar pastas no Windows 11 usando o Explorador de Arquivos, mantendo seus documentos organizados.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir o Explorador de Arquivos (ícone de pasta na barra de tarefas)",
+        "Navegar até a pasta 'Documentos'",
+        "Criar uma nova pasta chamada 'Escola'",
+        "Criar uma nova pasta chamada 'Trabalhos'",
+        "Criar uma nova pasta chamada 'Projetos'",
+        "Renomear a pasta 'Projetos' para 'Atividades'",
+        "Mover a pasta 'Atividades' para dentro da pasta 'Escola'",
+        "Criar uma subpasta dentro de 'Escola' chamada 'Matemática'",
+        "Excluir a pasta 'Trabalhos' (enviar para Lixeira)",
+        "Organizar as pastas por nome (ordem alfabética)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR O EXPLORADOR DE ARQUIVOS**\n3. Na barra de tarefas, clique no ícone de pasta (Explorador de Arquivos).\n4. Ou pressione a tecla Windows + E.\n5. A janela do Explorador de Arquivos será aberta.\n\n**PASSO 3: NAVEGAR ATÉ A PASTA DOCUMENTOS**\n6. Na barra lateral esquerda, clique em 'Documentos'.\n7. Esta é a pasta padrão para guardar seus arquivos.\n\n**PASSO 4: CRIAR UMA NOVA PASTA**\n8. Na aba superior, clique em 'Nova Pasta'.\n9. Uma nova pasta aparecerá com o nome 'Nova pasta' destacado.\n10. Digite o nome: 'Escola' e pressione Enter.\n11. Repita o processo para criar a pasta 'Trabalhos'.\n12. Repita o processo para criar a pasta 'Projetos'.\n\n**PASSO 5: RENOMEAR UMA PASTA**\n13. Clique com botão DIREITO na pasta 'Projetos'.\n14. No menu, clique em 'Renomear'.\n15. Digite o novo nome: 'Atividades'.\n16. Pressione Enter para confirmar.\n\n**PASSO 6: MOVER UMA PASTA PARA DENTRO DE OUTRA**\n17. Clique e segure na pasta 'Atividades'.\n18. Arraste a pasta sobre a pasta 'Escola' até ela ficar destacada.\n19. Solte o mouse - a pasta 'Atividades' agora está dentro de 'Escola'.\n20. Dê um clique duplo na pasta 'Escola' para entrar nela.\n21. Confirme que a pasta 'Atividades' está lá dentro.\n\n**PASSO 7: CRIAR SUBPASTA**\n22. Dentro da pasta 'Escola', clique em 'Nova Pasta'.\n23. Digite o nome: 'Matemática' e pressione Enter.\n\n**PASSO 8: VOLTAR PARA A PASTA ANTERIOR**\n24. Na barra de endereços, clique na seta para voltar ( ← ).\n25. Ou clique em 'Documentos' na barra lateral.\n26. Você voltará para a pasta Documentos.\n\n**PASSO 9: EXCLUIR UMA PASTA**\n27. Clique com botão DIREITO na pasta 'Trabalhos'.\n28. No menu, clique em 'Excluir'.\n29. Uma mensagem perguntará se deseja enviar para a Lixeira.\n30. Clique em 'Sim'.\n\n**PASSO 10: ORGANIZAR POR NOME**\n31. Na pasta Documentos, clique com botão DIREITO em área vazia.\n32. Passe o mouse sobre 'Classificar por'.\n33. Clique em 'Nome' para ordem alfabética.\n34. As pastas restantes ('Escola' e 'Atividades' - se ainda estiver visível) serão organizadas.\n\n**PASSO 11: VERIFICAR A LIXEIRA**\n35. Abra a Lixeira na Área de Trabalho.\n36. Confirme que a pasta 'Trabalhos' está lá.\n37. Feche a Lixeira.\n\n**RESULTADO ESPERADO:**\n- Você criou pastas 'Escola', 'Trabalhos' e 'Projetos/Atividades'\n- Renomeou a pasta 'Projetos' para 'Atividades'\n- Moveu 'Atividades' para dentro de 'Escola'\n- Criou uma subpasta 'Matemática' dentro de 'Escola'\n- Excluiu a pasta 'Trabalhos'\n- Organizou as pastas por nome em ordem alfabética"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Abrir Explorador", "peso": "5%", "descricao": "Abriu o Explorador de Arquivos corretamente"},
+        {"criterio": "Criar pastas", "peso": "15%", "descricao": "Criou as três pastas solicitadas"},
+        {"criterio": "Renomear pasta", "peso": "15%", "descricao": "Renomeou 'Projetos' para 'Atividades'"},
+        {"criterio": "Mover pasta", "peso": "20%", "descricao": "Moveu 'Atividades' para dentro de 'Escola'"},
+        {"criterio": "Criar subpasta", "peso": "15%", "descricao": "Criou a subpasta 'Matemática' dentro de 'Escola'"},
+        {"criterio": "Excluir pasta", "peso": "15%", "descricao": "Excluiu a pasta 'Trabalhos'"},
+        {"criterio": "Organizar pastas", "peso": "10%", "descricao": "Organizou as pastas por nome"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 O atalho Windows + E abre o Explorador de Arquivos rapidamente.",
+        "💡 Você também pode criar uma nova pasta pressionando Ctrl + Shift + N.",
+        "💡 Para desfazer uma exclusão acidental, pressione Ctrl + Z imediatamente.",
+        "💡 Use a barra de endereços para navegar rapidamente entre pastas.",
+        "💡 Mantenha seus documentos organizados em pastas por assunto (Escola, Trabalho, Pessoal).",
+        "💡 A pasta 'Documentos' é o local padrão para guardar seus arquivos."
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Exercício 07 - Movendo Arquivos entre Pastas",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "2º Trimestre",
+      "pasta": "windows/segundo_trimestre/ex07",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a selecionar múltiplos arquivos, recortar, copiar e colar arquivos entre pastas usando o mouse e atalhos de teclado (Ctrl+X, Ctrl+C, Ctrl+V).",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir o Explorador de Arquivos e navegar até a pasta 'Documentos'",
+        "Criar uma pasta chamada 'Matérias' dentro de Documentos",
+        "Dentro de 'Matérias', criar três subpastas: 'Português', 'Matemática', 'História'",
+        "Criar 5 arquivos de texto simples na pasta 'Matérias' (Arquivo1, Arquivo2, Arquivo3, Arquivo4, Arquivo5)",
+        "Mover o Arquivo1 para a pasta 'Português' (arrastando)",
+        "Mover o Arquivo2 para a pasta 'Matemática' (recortar e colar)",
+        "Copiar o Arquivo3 e colar dentro da pasta 'História' (copiar e colar)",
+        "Selecionar múltiplos arquivos (Arquivo4 e Arquivo5) usando Ctrl + clique",
+        "Mover os dois arquivos selecionados para a pasta 'Português'",
+        "Excluir um arquivo duplicado (se houver)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR EXPLORADOR E CRIAR ESTRUTURA**\n3. Abra o Explorador de Arquivos (Windows + E).\n4. Clique em 'Documentos' na barra lateral.\n5. Clique com botão direito > Novo > Pasta.\n6. Digite o nome: 'Matérias' e pressione Enter.\n7. Dê um clique duplo na pasta 'Matérias' para entrar.\n8. Dentro de 'Matérias', crie três pastas: 'Português', 'Matemática', 'História'.\n\n**PASSO 3: CRIAR ARQUIVOS DE TEXTO**\n9. Dentro da pasta 'Matérias', clique com botão direito > Novo > Documento de Texto.\n10. Digite o nome: 'Arquivo1' e pressione Enter.\n11. Repita o processo para criar: 'Arquivo2', 'Arquivo3', 'Arquivo4', 'Arquivo5'.\n\n**PASSO 4: MOVER ARQUIVO ARRASTANDO**\n12. Clique e segure no arquivo 'Arquivo1'.\n13. Arraste o arquivo sobre a pasta 'Português'.\n14. Solte o mouse - o arquivo foi movido para dentro da pasta.\n15. Dê um clique duplo na pasta 'Português' para verificar.\n16. Volte para a pasta 'Matérias' (seta de voltar).\n\n**PASSO 5: MOVER COM RECORTAR E COLAR**\n17. Clique com botão DIREITO no arquivo 'Arquivo2'.\n18. No menu, clique em 'Recortar' (ou pressione Ctrl + X).\n19. Dê um clique duplo na pasta 'Matemática'.\n20. Clique com botão DIREITO em área vazia dentro da pasta.\n21. Clique em 'Colar' (ou pressione Ctrl + V).\n22. O arquivo 'Arquivo2' apareceu dentro da pasta 'Matemática'.\n23. Volte para a pasta 'Matérias'.\n\n**PASSO 6: COPIAR E COLAR**\n24. Clique com botão DIREITO no arquivo 'Arquivo3'.\n25. No menu, clique em 'Copiar' (ou pressione Ctrl + C).\n26. Dê um clique duplo na pasta 'História'.\n27. Clique com botão DIREITO em área vazia > 'Colar' (ou Ctrl + V).\n28. O arquivo 'Arquivo3' foi COPIADO (o original ainda está na pasta Matérias).\n29. Volte para a pasta 'Matérias'.\n30. Observe que o 'Arquivo3' original ainda está lá.\n\n**PASSO 7: SELECIONAR MÚLTIPLOS ARQUIVOS**\n31. Clique no arquivo 'Arquivo4' para selecioná-lo.\n32. Pressione e segure a tecla Ctrl no teclado.\n33. Com Ctrl pressionado, clique no arquivo 'Arquivo5'.\n34. Solte a tecla Ctrl - os dois arquivos estão selecionados.\n35. Com os dois selecionados, clique e arraste para a pasta 'Português'.\n\n**PASSO 8: VERIFICAR OS ARQUIVOS**\n36. Entre na pasta 'Português' - veja os arquivos que estão lá.\n37. Entre na pasta 'Matemática' - veja os arquivos.\n38. Entre na pasta 'História' - veja os arquivos.\n\n**PASSO 9: EXCLUIR ARQUIVO DUPLICADO**\n39. Na pasta 'Matérias', localize o 'Arquivo3' original.\n40. Clique com botão DIREITO > 'Excluir'.\n\n**RESULTADO ESPERADO:**\n- Estrutura de pastas criada corretamente\n- 5 arquivos de texto criados\n- Arquivo1 movido para Português (arrastando)\n- Arquivo2 movido para Matemática (recortar/colar)\n- Arquivo3 copiado para História (copiar/colar)\n- Arquivo4 e Arquivo5 selecionados e movidos juntos para Português\n- Arquivo3 original excluído"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Criar estrutura", "peso": "10%", "descricao": "Criou a pasta 'Matérias' e as subpastas"},
+        {"criterio": "Criar arquivos", "peso": "10%", "descricao": "Criou 5 arquivos de texto"},
+        {"criterio": "Mover arrastando", "peso": "15%", "descricao": "Moveu Arquivo1 para Português arrastando"},
+        {"criterio": "Recortar e colar", "peso": "15%", "descricao": "Moveu Arquivo2 usando Ctrl+X e Ctrl+V"},
+        {"criterio": "Copiar e colar", "peso": "15%", "descricao": "Copiou Arquivo3 usando Ctrl+C e Ctrl+V"},
+        {"criterio": "Selecionar múltiplos", "peso": "15%", "descricao": "Selecionou Arquivo4 e Arquivo5 juntos com Ctrl"},
+        {"criterio": "Mover múltiplos", "peso": "10%", "descricao": "Moveu os dois arquivos selecionados juntos"},
+        {"criterio": "Excluir duplicado", "peso": "5%", "descricao": "Excluiu o Arquivo3 original"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Ctrl + X = Recortar (move o arquivo), Ctrl + C = Copiar (duplica), Ctrl + V = Colar.",
+        "💡 Para selecionar vários arquivos seguidos, clique no primeiro, segure Shift e clique no último.",
+        "💡 Para selecionar arquivos alternados, use Ctrl + clique em cada um.",
+        "💡 Arrastar com o botão DIREITO do mouse abre um menu para escolher 'Mover' ou 'Copiar'.",
+        "💡 Você também pode usar Ctrl + A para selecionar TODOS os arquivos da pasta.",
+        "💡 Organizar arquivos em pastas ajuda a encontrar o que precisa rapidamente."
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Exercício 08 - Salvando Arquivos no Local Correto",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "2º Trimestre",
+      "pasta": "windows/segundo_trimestre/ex08",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a salvar arquivos em pastas organizadas (Documentos, Imagens, Downloads) e entender a diferença entre 'Salvar' e 'Salvar Como'.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir o Bloco de Notas",
+        "Digitar um texto pequeno (ex: 'Meu primeiro arquivo salvo')",
+        "Salvar o arquivo na pasta 'Documentos' com o nome 'MeuTexto'",
+        "Fechar o Bloco de Notas",
+        "Reabrir o Bloco de Notas, digitar outro texto e usar 'Salvar Como'",
+        "Salvar na pasta 'Documentos' com o nome 'TextoDiferente'",
+        "Baixar uma imagem da internet (ex: do site Pexels ou qualquer imagem livre)",
+        "Salvar a imagem na pasta 'Imagens'",
+        "Abrir o navegador Chrome e acessar um site (ex: www.google.com)",
+        "Salvar uma página como favorita (adicionar aos favoritos)",
+        "Localizar os arquivos salvos usando o Explorador de Arquivos"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando",
+        "Conexão com internet para baixar imagem"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR O BLOCO DE NOTAS**\n3. Clique no botão Iniciar.\n4. Digite 'Bloco de Notas' e abra o aplicativo.\n\n**PASSO 3: DIGITAR E SALVAR NA PASTA DOCUMENTOS**\n5. Digite o texto: 'Meu primeiro arquivo salvo'.\n6. Clique em ARQUIVO > SALVAR (ou Ctrl + S).\n7. Na janela que abrir, clique em 'Documentos' na barra lateral.\n8. No campo 'Nome do arquivo', digite: 'MeuTexto'.\n9. Clique em SALVAR.\n10. Feche o Bloco de Notas.\n\n**PASSO 4: REABRIR E USAR SALVAR COMO**\n11. Abra o Bloco de Notas novamente.\n12. Digite outro texto: 'Este arquivo foi salvo com Salvar Como'.\n13. Clique em ARQUIVO > SALVAR COMO.\n14. Navegue até a pasta 'Documentos'.\n15. No campo 'Nome do arquivo', digite: 'TextoDiferente'.\n16. Clique em SALVAR.\n17. Feche o Bloco de Notas.\n\n**PASSO 5: ENTENDER A DIFERENÇA**\n18. 'Salvar' (Ctrl+S) atualiza o arquivo existente.\n19. 'Salvar Como' cria um novo arquivo ou salva em local diferente.\n\n**PASSO 6: BAIXAR E SALVAR UMA IMAGEM**\n20. Abra o navegador Google Chrome.\n21. Acesse um site com imagens livres (ex: bing.com/images).\n22. Pesquise por 'free wallpaper' ou 'natureza'.\n23. Clique com botão DIREITO em uma imagem.\n24. Escolha 'Salvar imagem como'.\n25. Na janela, clique em 'Imagens' na barra lateral.\n26. No campo 'Nome do arquivo', mantenha o nome original ou digite 'MinhaImagem'.\n27. Clique em SALVAR.\n\n**PASSO 7: SALVAR FAVORITO NO Chrome**\n28. No Google Chrome, acesse um site (ex: www.google.com).\n29. Clique no ícone de estrela na barra de endereços (Favoritos).\n30. No campo 'Nome', digite: 'Google'.\n31. Em 'Pasta', escolha 'Favoritos'.\n32. Clique em SALVAR.\n\n**PASSO 8: LOCALIZAR OS ARQUIVOS SALVOS**\n33. Abra o Explorador de Arquivos (Windows + E).\n34. Clique em 'Documentos' na barra lateral.\n35. Verifique se os arquivos 'MeuTexto' e 'TextoDiferente' estão lá.\n36. Clique em 'Imagens' na barra lateral.\n37. Verifique se a imagem baixada está lá.\n\n**RESULTADO ESPERADO:**\n- Dois arquivos de texto salvos na pasta Documentos\n- Uma imagem salva na pasta Imagens\n- Um favorito salvo no navegador Chrome\n- Você entende a diferença entre Salvar e Salvar Como\n- Consegue localizar os arquivos salvos no Explorador de Arquivos"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Salvar em Documentos", "peso": "15%", "descricao": "Salvou o primeiro arquivo na pasta Documentos"},
+        {"criterio": "Usar Salvar Como", "peso": "15%", "descricao": "Usou 'Salvar Como' para criar um segundo arquivo"},
+        {"criterio": "Entender diferença", "peso": "10%", "descricao": "Compreende a diferença entre Salvar e Salvar Como"},
+        {"criterio": "Baixar imagem", "peso": "15%", "descricao": "Baixou uma imagem e salvou na pasta Imagens"},
+        {"criterio": "Salvar favorito", "peso": "15%", "descricao": "Adicionou um site aos favoritos do Chrome"},
+        {"criterio": "Localizar arquivos", "peso": "15%", "descricao": "Encontrou os arquivos salvos no Explorador"},
+        {"criterio": "Execução correta", "peso": "15%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Sempre salve seus arquivos em pastas organizadas, nunca direto na Área de Trabalho.",
+        "💡 A pasta 'Documentos' é para textos, planilhas, apresentações.",
+        "💡 A pasta 'Imagens' é para fotos e imagens baixadas.",
+        "💡 A pasta 'Downloads' recebe arquivos baixados da internet automaticamente.",
+        "💡 Use Ctrl + S frequentemente para não perder seu trabalho.",
+        "💡 'Salvar Como' é útil para criar versões diferentes do mesmo arquivo."
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Exercício 09 - Excluindo e Recuperando Arquivos",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "2º Trimestre",
+      "pasta": "windows/segundo_trimestre/ex09",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a excluir arquivos enviando para a Lixeira, restaurar itens acidentalmente excluídos e esvaziar a Lixeira corretamente.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Criar uma pasta na Área de Trabalho chamada 'TesteLixeira'",
+        "Dentro da pasta, criar 3 arquivos de texto (ArquivoA, ArquivoB, ArquivoC)",
+        "Excluir o ArquivoA usando a tecla Delete",
+        "Excluir o ArquivoB usando botão direito > Excluir",
+        "Excluir o ArquivoC arrastando para o ícone da Lixeira",
+        "Abrir a Lixeira e visualizar os 3 arquivos excluídos",
+        "Restaurar o ArquivoA (botão direito > Restaurar)",
+        "Restaurar o ArquivoB e ArquivoC juntos (selecionando múltiplos)",
+        "Verificar se os arquivos voltaram para a pasta original",
+        "Excluir novamente os 3 arquivos e esvaziar a Lixeira"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: CRIAR PASTA NA ÁREA DE TRABALHO**\n3. Na Área de Trabalho, clique com botão direito > Novo > Pasta.\n4. Digite o nome: 'TesteLixeira' e pressione Enter.\n5. Dê um clique duplo na pasta para entrar.\n\n**PASSO 3: CRIAR ARQUIVOS DE TEXTO**\n6. Dentro da pasta, clique com botão direito > Novo > Documento de Texto.\n7. Digite o nome: 'ArquivoA' e pressione Enter.\n8. Repita para criar 'ArquivoB' e 'ArquivoC'.\n\n**PASSO 4: EXCLUIR ARQUIVO COM DELETE**\n9. Clique no arquivo 'ArquivoA' para selecioná-lo.\n10. Pressione a tecla Delete no teclado.\n11. O arquivo desapareceu da pasta.\n\n**PASSO 5: EXCLUIR COM BOTÃO DIREITO**\n12. Clique com botão DIREITO no arquivo 'ArquivoB'.\n13. No menu, clique em 'Excluir'.\n14. Clique em 'Sim' na mensagem de confirmação.\n\n**PASSO 6: EXCLUIR ARRASTANDO PARA LIXEIRA**\n15. Clique e segure no arquivo 'ArquivoC'.\n16. Arraste o arquivo até o ícone da Lixeira na Área de Trabalho.\n17. Solte o mouse sobre o ícone da Lixeira.\n\n**PASSO 7: ABRIR A LIXEIRA**\n18. Dê um clique duplo no ícone da Lixeira na Área de Trabalho.\n19. Você verá os três arquivos (ArquivoA, ArquivoB, ArquivoC) na Lixeira.\n\n**PASSO 8: RESTAURAR UM ARQUIVO**\n20. Clique com botão DIREITO no arquivo 'ArquivoA' dentro da Lixeira.\n21. No menu, clique em 'Restaurar'.\n22. O arquivo voltou para a pasta original 'TesteLixeira'.\n23. Feche a Lixeira e abra a pasta 'TesteLixeira' para confirmar.\n24. Volte para a Lixeira.\n\n**PASSO 9: RESTAURAR MÚLTIPLOS ARQUIVOS**\n25. Na Lixeira, clique no arquivo 'ArquivoB'.\n26. Pressione Ctrl e clique no arquivo 'ArquivoC'.\n27. Os dois arquivos estão selecionados.\n28. Clique com botão DIREITO em um dos selecionados.\n29. Clique em 'Restaurar'.\n30. Os arquivos 'ArquivoB' e 'ArquivoC' voltaram para a pasta original.\n31. Feche a Lixeira.\n\n**PASSO 10: EXCLUIR NOVAMENTE**\n32. Na pasta 'TesteLixeira', selecione os três arquivos.\n33. Pressione Delete no teclado.\n\n**PASSO 11: ESVAZIAR A LIXEIRA**\n34. Abra a Lixeira novamente.\n35. Clique na opção 'Esvaziar Lixeira' na barra superior.\n36. Clique em 'Sim' para confirmar.\n37. A Lixeira agora está vazia.\n38. Feche a Lixeira.\n\n**PASSO 12: LIMPAR**\n39. Exclua a pasta 'TesteLixeira' da Área de Trabalho.\n\n**RESULTADO ESPERADO:**\n- Pasta e arquivos criados corretamente\n- Arquivos excluídos por três métodos diferentes\n- Abriu a Lixeira e visualizou os arquivos\n- Restaurou um arquivo individualmente\n- Restaurou múltiplos arquivos juntos\n- Esvaziou a Lixeira corretamente\n- Entendeu o funcionamento da Lixeira"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Criar estrutura", "peso": "10%", "descricao": "Criou a pasta e os 3 arquivos"},
+        {"criterio": "Excluir com Delete", "peso": "10%", "descricao": "Excluiu usando a tecla Delete"},
+        {"criterio": "Excluir botão direito", "peso": "10%", "descricao": "Excluiu usando botão direito"},
+        {"criterio": "Excluir arrastando", "peso": "10%", "descricao": "Excluiu arrastando para Lixeira"},
+        {"criterio": "Abrir Lixeira", "peso": "5%", "descricao": "Abriu a Lixeira e viu os arquivos"},
+        {"criterio": "Restaurar um arquivo", "peso": "15%", "descricao": "Restaurou um arquivo individualmente"},
+        {"criterio": "Restaurar múltiplos", "peso": "15%", "descricao": "Restaurou dois arquivos juntos"},
+        {"criterio": "Esvaziar Lixeira", "peso": "15%", "descricao": "Esvaziou a Lixeira corretamente"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 A Lixeira guarda arquivos excluídos temporariamente - você pode restaurá-los.",
+        "💡 Para excluir um arquivo permanentemente (sem ir para Lixeira), use Shift + Delete.",
+        "💡 Itens excluídos da Lixeira ou com Shift+Delete NÃO podem ser recuperados facilmente.",
+        "💡 Você pode restaurar vários arquivos de uma vez selecionando-os e clicando em 'Restaurar'.",
+        "💡 A Lixeira tem tamanho limitado - arquivos muito grandes podem ser excluídos permanentemente.",
+        "💡 Verifique a Lixeira antes de esvaziá-la para não perder algo importante."
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Exercício 10 - Alterando o Papel de Parede",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "2º Trimestre",
+      "pasta": "windows/segundo_trimestre/ex10",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a personalizar o Windows 11 alterando o papel de parede da Área de Trabalho usando imagens próprias, imagens do sistema e temas de cores.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Clicar com botão direito na Área de Trabalho e escolher 'Personalizar'",
+        "Explorar as opções de papel de parede disponíveis no Windows",
+        "Escolher uma imagem padrão do Windows (ex: 'Flores' ou 'Foco diário')",
+        "Aplicar o papel de parede escolhido",
+        "Alterar a cor de destaque do Windows (cor dos botões e janelas)",
+        "Escolher entre modo Claro e modo Escuro",
+        "Usar uma imagem própria como papel de parede (se disponível)",
+        "Voltar para o papel de parede original ou escolher um definitivo"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Opcional: uma imagem salva no computador"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR CONFIGURAÇÕES DE PERSONALIZAÇÃO**\n3. Clique com botão DIREITO em uma área vazia da Área de Trabalho.\n4. No menu que aparecer, clique em 'Personalizar'.\n5. A janela Configurações será aberta na seção Personalização.\n\n**PASSO 3: EXPLORAR PAPÉIS DE PAREDE**\n6. Na seção 'Personalização', clique em 'Plano de Fundo'.\n7. Veja que há diferentes opções: 'Imagem', 'Cor Sólida', 'Apresentação de Slides'.\n8. Em 'Escolher seu papel de parede', clique em 'Imagem'.\n\n**PASSO 4: ESCOLHER UMA IMAGEM PADRÃO**\n9. Clique em 'Procurar fotos' ou clique nas imagens pré-definidas.\n10. Escolha uma imagem (ex: 'Flores', 'Foco diário' ou 'Paisagem').\n11. A imagem será aplicada como papel de parede automaticamente.\n12. Feche a janela Configurações para ver a Área de Trabalho com o novo papel.\n\n**PASSO 5: ALTERAR A COR DE DESTAQUE**\n13. Abra Configurações novamente (botão direito na Área de Trabalho > Personalizar).\n14. Clique em 'Cores' no menu lateral.\n15. Em 'Cor de destaque', escolha uma cor de sua preferência (ex: Verde, Roxo, Laranja).\n16. Ative a opção 'Mostrar cor de destaque no Iniciar e na barra de tarefas'.\n17. Observe a mudança de cor nos botões e janelas.\n\n**PASSO 6: ALTERAR ENTRE CLARO E ESCURO**\n18. Ainda em 'Cores', em 'Escolha seu modo', experimente:\n19. Selecione 'Escuro' - tudo ficará com fundo preto.\n20. Selecione 'Claro' - tudo ficará com fundo branco.\n21. Selecione 'Personalizado' para misturar os modos.\n\n**PASSO 7: USAR IMAGEM PRÓPRIA (SE DISPONÍVEL)**\n22. Clique em 'Plano de Fundo' no menu lateral.\n23. Em 'Escolher seu papel de parede', selecione 'Imagem'.\n24. Clique em 'Procurar fotos'.\n25. Navegue até a pasta onde você tem uma imagem salva.\n26. Selecione a imagem e clique em 'Escolher imagem'.\n27. A imagem será aplicada como papel de parede.\n\n**PASSO 8: VOLTAR AO PAPEL DE PAREDE ORIGINAL**\n28. Clique novamente em 'Plano de Fundo'.\n29. Clique em uma das imagens padrão do Windows para voltar.\n30. Ou escolha uma cor sólida simples (ex: Azul).\n\n**RESULTADO ESPERADO:**\n- Você acessou as configurações de personalização\n- Alterou o papel de parede para uma imagem padrão\n- Mudou a cor de destaque do Windows\n- Experimentou os modos Claro e Escuro\n- Usou uma imagem própria como papel de parede (se disponível)\n- Voltou ao papel de parede original ou escolheu um definitivo"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Acessar Personalização", "peso": "10%", "descricao": "Acessou as configurações de personalização"},
+        {"criterio": "Alterar papel de parede", "peso": "20%", "descricao": "Alterou o papel de parede com sucesso"},
+        {"criterio": "Alterar cor de destaque", "peso": "20%", "descricao": "Mudou a cor de destaque do sistema"},
+        {"criterio": "Modo Claro/Escuro", "peso": "15%", "descricao": "Alternou entre os modos Claro e Escuro"},
+        {"criterio": "Usar imagem própria", "peso": "15%", "descricao": "Usou uma imagem própria (ou tentou)"},
+        {"criterio": "Restaurar padrão", "peso": "10%", "descricao": "Voltou ao papel de parede original"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Você também pode alterar o papel de parede clicando com botão direito em uma imagem e escolhendo 'Definir como papel de parede'.",
+        "💡 O modo Escuro é mais confortável para usar o computador à noite.",
+        "💡 A cor de destaque aparece no Menu Iniciar, barra de tarefas e bordas das janelas.",
+        "💡 Você pode usar uma apresentação de slides como papel de parede (várias imagens alternando).",
+        "💡 Sites como Unsplash e Pexels oferecem imagens gratuitas para papel de parede.",
+        "💡 Personalizar o computador deixa o ambiente de trabalho mais agradável."
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "Exercício 11 - Fixando Pastas e Arquivos no Acesso Rápido",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "3º Trimestre",
+      "pasta": "windows/terceiro_trimestre/ex11",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a fixar pastas e arquivos usados com frequência no 'Acesso Rápido' do Explorador de Arquivos para facilitar o acesso diário.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir o Explorador de Arquivos (Windows + E)",
+        "Identificar a seção 'Acesso Rápido' na barra lateral esquerda",
+        "Navegar até a pasta 'Documentos'",
+        "Criar uma nova pasta chamada 'Trabalhos Escola' dentro de Documentos",
+        "Criar um arquivo de texto chamado 'Lembretes' dentro da pasta criada",
+        "Fixar a pasta 'Trabalhos Escola' no Acesso Rápido (botão direito > Fixar em Acesso Rápido)",
+        "Fixar o arquivo 'Lembretes' no Acesso Rápido",
+        "Verificar se ambos aparecem na seção 'Acesso Rápido'",
+        "Remover (desafixar) o arquivo 'Lembretes' do Acesso Rápido",
+        "Organizar o Acesso Rápido arrastando itens para reordenar"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR O EXPLORADOR DE ARQUIVOS**\n3. Pressione a tecla Windows + E para abrir o Explorador.\n4. Observe a barra lateral esquerda.\n5. Localize a seção 'Acesso Rápido' (geralmente é a primeira seção).\n\n**PASSO 3: CRIAR PASTA E ARQUIVO**\n6. Clique em 'Documentos' na barra lateral.\n7. Clique com botão direito > Novo > Pasta.\n8. Digite o nome: 'Trabalhos Escola' e pressione Enter.\n9. Dê um clique duplo na pasta para entrar.\n10. Clique com botão direito > Novo > Documento de Texto.\n11. Digite o nome: 'Lembretes' e pressione Enter.\n\n**PASSO 4: FIXAR A PASTA NO ACESSO RÁPIDO**\n12. Volte para a pasta 'Documentos' (seta de voltar).\n13. Clique com botão DIREITO na pasta 'Trabalhos Escola'.\n14. No menu, clique em 'Fixar em Acesso Rápido'.\n15. Observe a barra lateral esquerda - a pasta apareceu em 'Acesso Rápido'.\n\n**PASSO 5: FIXAR O ARQUIVO NO ACESSO RÁPIDO**\n16. Clique na pasta 'Trabalhos Escola' para entrar.\n17. Clique com botão DIREITO no arquivo 'Lembretes'.\n18. No menu, clique em 'Fixar em Acesso Rápido'.\n19. Verifique na barra lateral - o arquivo 'Lembretes' apareceu no 'Acesso Rápido'.\n\n**PASSO 6: VERIFICAR OS ITENS FIXADOS**\n20. Na seção 'Acesso Rápido', você verá:\n    - Pasta 'Trabalhos Escola'\n    - Arquivo 'Lembretes'\n21. Clique em cada um para confirmar que abrem corretamente.\n\n**PASSO 7: REORDENAR OS ITENS**\n22. Na seção 'Acesso Rápido', clique e segure no ícone da pasta 'Trabalhos Escola'.\n23. Arraste para cima ou para baixo para mudar a posição.\n24. Solte o mouse na nova posição.\n\n**PASSO 8: DESAFIXAR O ARQUIVO**\n25. No 'Acesso Rápido', clique com botão DIREITO no arquivo 'Lembretes'.\n26. No menu, clique em 'Desafixar do Acesso Rápido'.\n27. O arquivo desapareceu da seção 'Acesso Rápido'.\n\n**PASSO 9: VERIFICAR O RESULTADO**\n28. Confirme que apenas a pasta 'Trabalhos Escola' permanece fixada.\n29. O arquivo 'Lembretes' ainda existe dentro da pasta original.\n\n**PASSO 10: REMOVER A PASTA (OPCIONAL)**\n30. Se desejar, remova a pasta do Acesso Rápido seguindo o mesmo passo.\n31. Ou mantenha-a para uso futuro.\n\n**RESULTADO ESPERADO:**\n- Você criou uma pasta e um arquivo nos Documentos\n- Fixou a pasta no Acesso Rápido com sucesso\n- Fixou o arquivo no Acesso Rápido com sucesso\n- Reordenou os itens na seção Acesso Rápido\n- Removeu (desafixou) o arquivo do Acesso Rápido\n- Entende como usar o Acesso Rápido para acessar itens frequentes"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Criar pasta e arquivo", "peso": "10%", "descricao": "Criou a pasta 'Trabalhos Escola' e o arquivo 'Lembretes'"},
+        {"criterio": "Fixar pasta no Acesso Rápido", "peso": "20%", "descricao": "Fixou a pasta no Acesso Rápido corretamente"},
+        {"criterio": "Fixar arquivo no Acesso Rápido", "peso": "20%", "descricao": "Fixou o arquivo no Acesso Rápido corretamente"},
+        {"criterio": "Verificar itens fixados", "peso": "10%", "descricao": "Confirmou que os itens aparecem no Acesso Rápido"},
+        {"criterio": "Reordenar itens", "peso": "15%", "descricao": "Reordenou os itens arrastando"},
+        {"criterio": "Desafixar arquivo", "peso": "15%", "descricao": "Removeu o arquivo do Acesso Rápido"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 O Acesso Rápido é uma lista de pastas e arquivos que você usa com frequência.",
+        "💡 Você também pode arrastar uma pasta diretamente para o Acesso Rápido para fixá-la.",
+        "💡 Para remover um item do Acesso Rápido sem excluí-lo, use 'Desafixar do Acesso Rápido'.",
+        "💡 O Acesso Rápido é pessoal - cada usuário tem o seu.",
+        "💡 Você também pode ocultar o Acesso Rápido nas opções de pasta se preferir.",
+        "💡 Caminho rápido: Windows + E abre o Explorador já no Acesso Rápido."
+      ]
+    },
+    {
+      "id": 12,
+      "titulo": "Exercício 12 - Pesquisando Arquivos e Programas",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "3º Trimestre",
+      "pasta": "windows/terceiro_trimestre/ex12",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a usar a barra de pesquisa do Windows 11 para encontrar arquivos, pastas e programas rapidamente, sem precisar navegar pelas pastas manualmente.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Criar alguns arquivos de teste na pasta Documentos (ArquivoProva1, ArquivoProva2, RelatorioFinal)",
+        "Criar uma subpasta chamada 'Matematica' dentro de Documentos",
+        "Usar a barra de pesquisa do Menu Iniciar para pesquisar 'Calculadora'",
+        "Pesquisar 'Configurações' e abrir o aplicativo",
+        "Pesquisar pelo arquivo 'ArquivoProva1' na barra de pesquisa",
+        "Pesquisar por 'Relatorio' e encontrar o arquivo",
+        "Usar a pesquisa dentro do Explorador de Arquivos para encontrar arquivos na pasta atual",
+        "Usar os filtros de pesquisa (Documentos, Pastas, Imagens)",
+        "Limpar o histórico de pesquisa (opcional)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: CRIAR ARQUIVOS PARA TESTE**\n3. Abra o Explorador de Arquivos (Windows + E).\n4. Clique em 'Documentos'.\n5. Crie dois arquivos de texto: 'ArquivoProva1' e 'ArquivoProva2'.\n6. Crie um terceiro arquivo: 'RelatorioFinal'.\n7. Crie uma pasta chamada 'Matematica'.\n\n**PASSO 3: PESQUISAR PROGRAMA PELO MENU INICIAR**\n8. Clique no botão Iniciar (ícone do Windows na barra de tarefas).\n9. Clique na caixa de pesquisa (lupa) ou comece a digitar diretamente.\n10. Digite: 'Calculadora'.\n11. O Windows mostrará o aplicativo Calculadora nos resultados.\n12. Clique no ícone da Calculadora para abri-la.\n13. Feche a Calculadora.\n\n**PASSO 4: PESQUISAR CONFIGURAÇÕES**\n14. Abra o Menu Iniciar novamente.\n15. Digite: 'Configurações'.\n16. Clique no ícone de engrenagem (Configurações) para abrir.\n17. Feche a janela Configurações.\n\n**PASSO 5: PESQUISAR ARQUIVO PELO NOME COMPLETO**\n18. Abra o Menu Iniciar.\n19. Digite: 'ArquivoProva1'.\n20. O Windows deve mostrar o arquivo nos resultados.\n21. Clique no arquivo para abri-lo.\n22. Feche o Bloco de Notas.\n\n**PASSO 6: PESQUISAR PALAVRA-CHAVE**\n23. Abra o Menu Iniciar.\n24. Digite apenas: 'Relatorio' (sem o 'Final').\n25. O Windows deve encontrar o arquivo 'RelatorioFinal'.\n26. Clique no arquivo para abrir e depois feche.\n\n**PASSO 7: PESQUISAR DENTRO DO EXPLORADOR**\n27. Abra o Explorador de Arquivos e vá para 'Documentos'.\n28. No canto superior direito, há uma caixa de pesquisa.\n29. Clique dentro da caixa de pesquisa.\n30. Digite: 'Matematica'.\n31. O Explorador mostrará apenas a pasta 'Matematica' nos resultados.\n\n**PASSO 8: USAR FILTROS DE PESQUISA**\n32. No Explorador, ainda na pasta Documentos.\n33. Na caixa de pesquisa, digite: 'Prova'.\n34. Os arquivos 'ArquivoProva1' e 'ArquivoProva2' aparecerão.\n35. Clique na aba 'Pesquisar' que aparece.\n36. Experimente filtrar por 'Tipo' > 'Documento de Texto'.\n\n**PASSO 9: PESQUISAR POR DATA (OPCIONAL)**\n37. Na caixa de pesquisa, digite: 'modificado: esta semana'.\n38. O Windows mostrará arquivos modificados recentemente.\n\n**PASSO 10: LIMPAR O HISTÓRICO DE PESQUISA**\n39. Abra o Menu Iniciar.\n40. Clique na caixa de pesquisa.\n41. Clique com botão direito em uma pesquisa recente.\n42. Escolha 'Remover' para apagar um item.\n43. Para limpar tudo, vá em Configurações > Privacidade e segurança > Histórico de atividade.\n\n**RESULTADO ESPERADO:**\n- Você criou arquivos de teste nos Documentos\n- Pesquisou e abriu a Calculadora pelo Menu Iniciar\n- Pesquisou e abriu Configurações\n- Encontrou arquivos pelo nome completo e por palavra-chave\n- Usou a pesquisa dentro do Explorador de Arquivos\n- Usou filtros básicos de pesquisa\n- Entende como encontrar rapidamente qualquer coisa no Windows"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Criar arquivos teste", "peso": "10%", "descricao": "Criou os arquivos e pasta para teste"},
+        {"criterio": "Pesquisar Calculadora", "peso": "15%", "descricao": "Encontrou e abriu a Calculadora"},
+        {"criterio": "Pesquisar Configurações", "peso": "10%", "descricao": "Encontrou e abriu Configurações"},
+        {"criterio": "Pesquisar nome completo", "peso": "15%", "descricao": "Encontrou 'ArquivoProva1' pelo nome completo"},
+        {"criterio": "Pesquisar palavra-chave", "peso": "15%", "descricao": "Encontrou 'RelatorioFinal' digitando 'Relatorio'"},
+        {"criterio": "Pesquisar no Explorador", "peso": "15%", "descricao": "Usou a pesquisa dentro do Explorador"},
+        {"criterio": "Usar filtros", "peso": "10%", "descricao": "Usou filtros de pesquisa"},
+        {"criterio": "Execução correta", "peso": "10%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Após abrir o Menu Iniciar, você pode começar a digitar imediatamente - não precisa clicar na caixa de pesquisa.",
+        "💡 A tecla Windows + S também abre a pesquisa diretamente.",
+        "💡 Você pode pesquisar por 'modificado: hoje' para ver arquivos editados hoje.",
+        "💡 Use 'tipo: documento' para filtrar apenas arquivos de texto.",
+        "💡 A pesquisa também encontra pastas, músicas, fotos e vídeos.",
+        "💡 Quanto mais você usa, melhor a pesquisa fica (aprende seus hábitos)."
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "Exercício 13 - Fazendo Captura de Tela",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "3º Trimestre",
+      "pasta": "windows/terceiro_trimestre/ex13",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a fazer capturas de tela no Windows 11 usando diferentes métodos: tecla Print Screen, Ferramenta de Captura (Snipping Tool) e atalho Windows + Shift + S.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir a Calculadora ou qualquer outro programa na tela",
+        "Usar a tecla Print Screen (PrtSc) para capturar a tela inteira",
+        "Colar a captura no Bloco de Notas? (não funciona) - explicar que cola em editores de imagem",
+        "Usar o atalho Windows + Shift + S para abrir a Ferramenta de Captura",
+        "Fazer uma captura retangular de uma parte da tela",
+        "Salvar a captura na pasta 'Imagens' > 'Capturas de Tela'",
+        "Usar a Ferramenta de Captura completa (Snipping Tool) pelo Menu Iniciar",
+        "Fazer uma captura no modo 'Janela' (capturar apenas uma janela)",
+        "Anotar a captura com a caneta ou marcador da Ferramenta"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: ABRIR UM PROGRAMA**\n3. Abra a Calculadora (ou qualquer programa).\n4. Deixe a Calculadora visível na tela.\n\n**PASSO 3: USAR PRINT SCREEN (PRT SC)**\n5. Localize a tecla Print Screen no teclado (pode ser 'PrtSc', 'PrtScn' ou 'Print Screen').\n6. Pressione a tecla Print Screen UMA vez.\n7. O Windows capturou a tela inteira e salvou na área de transferência.\n8. Abra o Bloco de Notas.\n9. Tente colar (Ctrl + V) - NÃO FUNCIONA (Bloco de Notas não aceita imagens).\n10. Feche o Bloco de Notas.\n11. Abra o Paint (digite 'Paint' no Menu Iniciar).\n12. Pressione Ctrl + V para colar a captura.\n13. A captura da tela apareceu no Paint.\n14. Feche o Paint sem salvar.\n\n**PASSO 4: USAR WINDOWS + SHIFT + S**\n15. Pressione Windows + Shift + S no teclado.\n16. A tela escurece e a barra da Ferramenta de Captura aparece no topo.\n17. Clique no primeiro ícone (Modo Retangular).\n18. Clique e arraste para selecionar uma área da tela.\n19. Solte o mouse - a captura foi copiada para a área de transferência.\n20. Uma notificação aparece: 'Captura de tela salva'.\n21. Clique na notificação para abrir a Ferramenta de Captura.\n22. Veja sua captura dentro da ferramenta.\n\n**PASSO 5: SALVAR A CAPTURA**\n23. Na Ferramenta de Captura, clique no ícone de disquete (Salvar).\n24. Navegue até a pasta 'Imagens' > 'Capturas de Tela'.\n25. Mantenha o nome sugerido ou digite 'MinhaCaptura'.\n26. Clique em SALVAR.\n27. Feche a Ferramenta de Captura.\n\n**PASSO 6: USAR A FERRAMENTA DE CAPTURA COMPLETA**\n28. Abra o Menu Iniciar.\n29. Digite: 'Ferramenta de Captura' (ou 'Snipping Tool').\n30. Abra o aplicativo.\n31. Clique em 'Novo'.\n32. Selecione uma área da tela.\n33. A captura aparecerá na ferramenta.\n\n**PASSO 7: FAZER CAPTURA DE JANELA**\n34. Na Ferramenta de Captura, clique na seta ao lado de 'Modo'.\n35. Escolha 'Captura de Janela'.\n36. Clique na janela da Calculadora.\n37. A ferramenta capturará apenas a Calculadora.\n\n**PASSO 8: ANOTAR A CAPTURA**\n38. Na Ferramenta de Captura, clique no ícone da Caneta.\n39. Desenhe algo sobre a captura (um círculo, uma seta).\n40. Clique no Marcador para destacar em amarelo.\n41. Salve a captura anotada.\n\n**PASSO 9: LOCALIZAR AS CAPTURAS**\n42. Abra o Explorador de Arquivos.\n43. Clique em 'Imagens' > 'Capturas de Tela'.\n44. Todas as suas capturas estão lá.\n\n**RESULTADO ESPERADO:**\n- Capturou a tela inteira com Print Screen\n- Usou Windows + Shift + S para captura retangular\n- Salvou uma captura na pasta 'Capturas de Tela'\n- Usou a Ferramenta de Captura (Snipping Tool)\n- Fez captura de janela específica\n- Anotou uma captura com caneta ou marcador\n- Localizou as capturas na pasta correta"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Print Screen", "peso": "10%", "descricao": "Usou a tecla Print Screen e colou no Paint"},
+        {"criterio": "Windows + Shift + S", "peso": "20%", "descricao": "Usou o atalho para captura retangular"},
+        {"criterio": "Salvar captura", "peso": "15%", "descricao": "Salvou a captura na pasta correta"},
+        {"criterio": "Ferramenta de Captura", "peso": "15%", "descricao": "Abriu e usou a Ferramenta de Captura"},
+        {"criterio": "Captura de janela", "peso": "15%", "descricao": "Fez captura de apenas uma janela"},
+        {"criterio": "Anotar captura", "peso": "10%", "descricao": "Usou caneta/marcador para anotar"},
+        {"criterio": "Localizar capturas", "peso": "10%", "descricao": "Encontrou as capturas na pasta 'Capturas de Tela'"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Windows + Shift + S é o atalho mais rápido e versátil para capturas.",
+        "💡 As capturas com Windows + Shift + S vão para a área de transferência e para a pasta 'Capturas de Tela'.",
+        "💡 Print Screen captura TUDO (todas as telas, se tiver múltiplos monitores).",
+        "💡 Alt + Print Screen captura apenas a janela ativa.",
+        "💡 A Ferramenta de Captura permite atrasar a captura (útil para menus que desaparecem).",
+        "💡 Você pode compartilhar a captura diretamente da Ferramenta de Captura."
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "Exercício 14 - Personalizando a Barra de Tarefas",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "3º Trimestre",
+      "pasta": "windows/terceiro_trimestre/ex14",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender a personalizar a barra de tarefas do Windows 11, fixando e removendo ícones, alterando o alinhamento (centro ou esquerda) e configurando comportamentos.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir o Explorador de Arquivos e o Google Chrome",
+        "Fixar o Explorador de Arquivos na barra de tarefas (botão direito > Fixar na barra de tarefas)",
+        "Fixar o Google Chrome na barra de tarefas",
+        "Remover (desafixar) um ícone da barra de tarefas (botão direito > Desafixar da barra de tarefas)",
+        "Abrir o Bloco de Notas (sem fixar)",
+        "Clicar com botão direito no ícone do Bloco de Notas na barra de tarefas e escolher 'Fixar'",
+        "Alterar o alinhamento dos ícones da barra de tarefas para 'Esquerda'",
+        "Voltar o alinhamento para 'Centro'",
+        "Ocultar a barra de tarefas automaticamente (Configurações > Personalização > Barra de tarefas)",
+        "Desativar a ocultação automática",
+        "Selecionar quais ícones aparecem na barra de tarefas (opcional)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n\n**PASSO 2: IDENTIFICAR A BARRA DE TAREFAS**\n3. Olhe para a barra na parte inferior da tela.\n4. É onde ficam o botão Iniciar, a pesquisa e os ícones.\n\n**PASSO 3: FIXAR EXPLORADOR DE ARQUIVOS**\n5. Clique no botão Iniciar.\n6. Digite 'Explorador de Arquivos'.\n7. Clique com botão DIREITO no ícone do Explorador.\n8. No menu, clique em 'Fixar na barra de tarefas'.\n9. O ícone do Explorador apareceu na barra de tarefas.\n\n**PASSO 4: FIXAR Google Chrome**\n10. Clique no botão Iniciar.\n11. Digite 'Chrome'.\n12. Clique com botão DIREITO no ícone do Google Chrome.\n13. Clique em 'Fixar na barra de tarefas'.\n14. O ícone do Chrome apareceu na barra de tarefas.\n\n**PASSO 5: DESAFIXAR UM ÍCONE**\n15. Na barra de tarefas, clique com botão DIREITO em um ícone (ex: Chrome).\n16. No menu, clique em 'Desafixar da barra de tarefas'.\n17. O ícone desapareceu da barra de tarefas.\n18. Fixe o Chrome novamente se desejar.\n\n**PASSO 6: FIXAR PROGRAMA ABERTO**\n19. Abra o Bloco de Notas (pesquise no Menu Iniciar).\n20. Na barra de tarefas, o ícone do Bloco de Notas apareceu.\n21. Clique com botão DIREITO no ícone do Bloco de Notas na barra de tarefas.\n22. Clique em 'Fixar na barra de tarefas'.\n23. Feche o Bloco de Notas.\n24. O ícone permaneceu na barra de tarefas (fixado).\n\n**PASSO 7: ALTERAR ALINHAMENTO DOS ÍCONES**\n25. Clique com botão DIREITO em uma área vazia da barra de tarefas.\n26. No menu, clique em 'Configurações da barra de tarefas'.\n27. Em 'Comportamentos da barra de tarefas', clique para expandir.\n28. Em 'Alinhamento da barra de tarefas', escolha 'Esquerda'.\n29. Os ícones se moveram para o lado esquerdo da barra de tarefas.\n30. Repita e volte para 'Centro'.\n\n**PASSO 8: OCULTAR AUTOMATICAMENTE A BARRA DE TAREFAS**\n31. Nas Configurações da barra de tarefas, ative 'Ocultar automaticamente a barra de tarefas'.\n32. A barra de tarefas desapareceu da tela.\n33. Passe o mouse na parte inferior da tela - a barra reaparece.\n34. Desative a opção 'Ocultar automaticamente' para voltar ao normal.\n\n**PASSO 9: SELECIONAR ÍCONES QUE APARECEM**\n35. Nas Configurações da barra de tarefas, clique em 'Outros ícones da bandeja do sistema'.\n36. Ative ou desative ícones como 'Volume', 'Rede', 'Bateria'.\n37. Feche as Configurações.\n\n**PASSO 10: REORDENAR ÍCONES**\n38. Na barra de tarefas, clique e segure em um ícone.\n39. Arraste para a esquerda ou direita para mudar a posição.\n40. Solte o mouse na nova posição.\n\n**RESULTADO ESPERADO:**\n- Você fixou e removeu ícones da barra de tarefas\n- Fixou um programa enquanto ele estava aberto\n- Alterou o alinhamento dos ícones (Centro/Esquerda)\n- Testou a ocultação automática da barra de tarefas\n- Selecionou quais ícones do sistema aparecem\n- Reordenou os ícones arrastando"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Fixar Explorador", "peso": "10%", "descricao": "Fixou o Explorador de Arquivos na barra de tarefas"},
+        {"criterio": "Fixar Chrome", "peso": "10%", "descricao": "Fixou o Google Chrome na barra de tarefas"},
+        {"criterio": "Desafixar ícone", "peso": "10%", "descricao": "Removeu um ícone da barra de tarefas"},
+        {"criterio": "Fixar programa aberto", "peso": "15%", "descricao": "Fixou o Bloco de Notas enquanto aberto"},
+        {"criterio": "Alterar alinhamento", "peso": "15%", "descricao": "Alternou alinhamento entre Centro e Esquerda"},
+        {"criterio": "Ocultar automaticamente", "peso": "15%", "descricao": "Ativou e desativou ocultação automática"},
+        {"criterio": "Selecionar ícones", "peso": "10%", "descricao": "Configurou ícones do sistema"},
+        {"criterio": "Reordenar ícones", "peso": "10%", "descricao": "Reordenou ícones arrastando"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Você pode fixar qualquer programa na barra de tarefas para acesso rápido.",
+        "💡 Para abrir um programa fixado, clique UMA vez no ícone.",
+        "💡 Clique com botão DIREITO em um ícone fixado para ver opções recentes do programa.",
+        "💡 A barra de tarefas no centro é padrão do Windows 11 (diferente do Windows 10).",
+        "💡 Ocultar automaticamente é útil em telas pequenas (notebooks).",
+        "💡 Você também pode redimensionar a barra de tarefas (não no Windows 11 padrão)."
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Exercício 15 - Desligando e Reiniciando Corretamente",
+      "disciplina": "Microsoft Windows 11",
+      "trimestre": "3º Trimestre",
+      "pasta": "windows/terceiro_trimestre/ex15",
+      "nivel": "Iniciante",
+      "objetivo": "Aprender as formas corretas de desligar, reiniciar, suspender e hibernar o computador no Windows 11, entendendo quando usar cada opção.",
+      "requisitos": [
+        "Ligar o computador e acessar a Área de Trabalho do Windows 11",
+        "Abrir alguns programas (Bloco de Notas, Calculadora, Chrome)",
+        "Abrir o Menu Iniciar e identificar o botão de energia",
+        "Escolher a opção 'Suspender' e aguardar o computador dormir",
+        "Acordar o computador pressionando qualquer tecla ou movendo o mouse",
+        "Abrir o Menu Iniciar novamente e escolher 'Reiniciar'",
+        "Aguardar o computador reiniciar e fazer login novamente",
+        "Abrir o Menu Iniciar e identificar as opções 'Desligar'",
+        "Usar o atalho do teclado Alt + F4 na Área de Trabalho para abrir opções de desligamento",
+        "Usar o atalho Windows + X para abrir o menu de usuário avançado",
+        "No menu avançado, escolher 'Desligar ou sair' > 'Desligar'",
+        "Explicar quando usar cada opção (Desligar, Reiniciar, Suspender)"
+      ],
+      "requisitos_tecnicos": [
+        "Software: Microsoft Windows 11 (versão original ou atualizada)",
+        "Computador com Windows 11 instalado e funcionando",
+        "Mouse ou touchpad funcionando",
+        "Teclado funcionando"
+      ],
+      "texto_referencia": "",
+      "arquivos": [
+        {
+          "nome": "pratica_windows11",
+          "linguagem": "windows",
+          "codigo": "**PASSO 1: LIGAR O COMPUTADOR**\n1. Ligue o computador pressionando o botão liga/desliga.\n2. Aguarde o Windows 11 iniciar completamente.\n3. Faça login se necessário.\n\n**PASSO 2: ABRIR PROGRAMAS PARA TESTE**\n4. Abra o Bloco de Notas.\n5. Abra a Calculadora.\n6. Abra o Google Chrome.\n\n**PASSO 3: IDENTIFICAR O BOTÃO DE ENERGIA**\n7. Clique no botão Iniciar (ícone do Windows).\n8. No canto inferior direito do Menu Iniciar, veja o botão de energia.\n9. O ícone é um círculo com um traço na parte superior.\n\n**PASSO 4: USAR A OPÇÃO SUSPENDER**\n10. Clique no botão de energia.\n11. No menu, clique em 'Suspender'.\n12. O computador entrará em modo de suspensão (tela escura, mas ainda ligado).\n13. Aguarde 5 segundos.\n14. Pressione qualquer tecla do teclado ou mova o mouse.\n15. O computador \"acordará\" e você voltará para onde parou.\n16. Os programas que você abriu ainda estão lá.\n\n**PASSO 5: USAR A OPÇÃO REINICIAR**\n17. Abra o Menu Iniciar.\n18. Clique no botão de energia.\n19. Clique em 'Reiniciar'.\n20. O computador vai desligar e ligar novamente automaticamente.\n21. Aguarde o processo completo (pode levar alguns minutos).\n22. Faça login novamente quando terminar.\n23. Observe que os programas foram fechados.\n\n**PASSO 6: USAR ALT + F4 NA ÁREA DE TRABALHO**\n24. Com todos os programas fechados, clique na Área de Trabalho.\n25. Pressione Alt + F4 no teclado.\n26. Uma janela 'Desligar o Windows' será aberta.\n27. Na lista suspensa, você pode escolher: Desligar, Reiniciar, Suspender, Hibernar.\n28. Selecione 'Cancelar' por enquanto (não vamos desligar agora).\n\n**PASSO 7: USAR WINDOWS + X (MENU AVANÇADO)**\n29. Pressione a tecla Windows + X no teclado.\n30. Um menu avançado abrirá no canto inferior esquerdo.\n31. Passe o mouse sobre 'Desligar ou sair'.\n32. As opções aparecerão: Desligar, Reiniciar, Suspender.\n33. Pressione ESC para fechar o menu.\n\n**PASSO 8: ENTENDER CADA OPÇÃO**\n34. DESLIGAR: Fecha tudo e desliga o computador. Use quando for guardar o PC.\n35. REINICIAR: Desliga e liga novamente. Use após instalar programas ou quando o PC estiver lento.\n36. SUSPENDER: Economiza energia, mas mantém programas abertos. Use para pausas curtas.\n37. HIBERNAR: Salva tudo no disco e desliga. Use para pausas longas (não em todos PCs).\n\n**PASSO 9: DESLIGAR CORRETAMENTE (SIMULAÇÃO)**\n38. Feche todos os programas abertos (Bloco de Notas, Calculadora, Chrome).\n39. Abra o Menu Iniciar > botão energia > Desligar.\n40. Aguarde o computador desligar completamente.\n41. (Se for o fim do seu expediente, pode desligar de verdade!)\n\n**PASSO 10: SABER O QUE NÃO FAZER**\n42. NUNCA desligue o computador segurando o botão físico (a menos que esteja travado).\n43. NUNCA desligue tirando o cabo de energia.\n44. Sempre use as opções do Windows para desligar.\n\n**RESULTADO ESPERADO:**\n- Você identificou o botão de energia no Menu Iniciar\n- Usou a opção Suspender e acordou o computador\n- Usou a opção Reiniciar corretamente\n- Usou o atalho Alt + F4 na Área de Trabalho\n- Usou o atalho Windows + X para menu avançado\n- Entende a diferença entre Desligar, Reiniciar e Suspender\n- Sabe como desligar o computador corretamente"
+        }
+      ],
+      "criterios": [
+        {"criterio": "Identificar botão energia", "peso": "10%", "descricao": "Localizou o botão de energia no Menu Iniciar"},
+        {"criterio": "Usar Suspender", "peso": "15%", "descricao": "Suspendeu e acordou o computador"},
+        {"criterio": "Usar Reiniciar", "peso": "15%", "descricao": "Reiniciou o computador corretamente"},
+        {"criterio": "Alt + F4", "peso": "15%", "descricao": "Usou o atalho Alt + F4 na Área de Trabalho"},
+        {"criterio": "Windows + X", "peso": "15%", "descricao": "Usou o atalho Windows + X"},
+        {"criterio": "Entender opções", "peso": "15%", "descricao": "Explica a diferença entre as opções"},
+        {"criterio": "Saber não desligar errado", "peso": "10%", "descricao": "Entende como NÃO desligar o computador"},
+        {"criterio": "Execução correta", "peso": "5%", "descricao": "Todos os passos foram executados sem ajuda externa"}
+      ],
+      "exemplo_execucao": "",
+      "comandos_execucao": "N/A - Exercício prático de navegação no Windows 11",
+      "dicas": [
+        "💡 Sempre use o menu do Windows para desligar - nunca segure o botão físico!",
+        "💡 Suspender é ótimo para pausas curtas (almoço, intervalo).",
+        "💡 Reiniciar resolve muitos problemas de lentidão ou programas travados.",
+        "💡 O atalho Alt + F4 funciona na Área de Trabalho para abrir opções de desligamento.",
+        "💡 Se o computador travar, aí sim use o botão físico (segure por 10 segundos).",
+        "💡 Atualizações do Windows costumam exigir reinicialização para terminar."
+      ]
+    }
+  ]
+}
